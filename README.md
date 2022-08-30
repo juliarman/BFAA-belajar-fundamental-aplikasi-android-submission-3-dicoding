@@ -5,6 +5,9 @@ MOHON GUNAKAN SEBAGAI REFERENSI SAJA :)
 
 <h2>LIGHT MODE</h2>
 <p>
+
+<img src="https://github.com/juliarman/BFAA-belajar-fundamental-aplikasi-android-submission-3-dicoding/blob/main/app/src/main/res/drawable/splash_screen.jpg" width="230">
+
   <img src="https://github.com/juliarman/BFAA-belajar-fundamental-aplikasi-android-submission-3-dicoding/blob/main/app/src/main/res/drawable/lightmode_main.jpg" width="230">
 
 <img src="https://github.com/juliarman/BFAA-belajar-fundamental-aplikasi-android-submission-3-dicoding/blob/main/app/src/main/res/drawable/lightmode_detailuser.jpg" width="230">
