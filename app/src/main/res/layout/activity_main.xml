@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:minHeight="?attr/actionBarSize">
+
+
+        <TextView
+            android:id="@+id/titleToolbar"
+            style="@style/Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/github_apps"
+            />
+
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/btn_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/internet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view"
+        style="@style/SearchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        app:queryBackground="@null"/>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/view_not_found"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/searching"
+            android:contentDescription="@string/data_not_found" />
+        <TextView
+            style="@style/TitleNoConnection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/data_not_found"
+            android:textSize="25sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/no_connection"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/no_connection"
+            android:contentDescription="@string/no_connection" />
+
+        <TextView
+            style="@style/TitleNoConnection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_connection"
+            android:textSize="25sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins"
+            android:textSize="13sp"
+            android:text="@string/description_no_connection"/>
+    </LinearLayout>
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/rv_users"
+           style="@style/listUser"
+           android:overScrollMode="never"
+           android:scrollbarSize="0dp"
+           tools:listitem="@layout/list_users" />
+
+       <ProgressBar
+           android:id="@+id/progressBar"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:indeterminateTint="@color/orange"
+           android:visibility="invisible"
+           android:layout_gravity="center" />
+
+   </RelativeLayout>
+
+</LinearLayout>

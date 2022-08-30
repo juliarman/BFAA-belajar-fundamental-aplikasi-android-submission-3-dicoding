@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/themeMode"
+        android:title=""
+        android:icon="@drawable/ic_baseline_settings_24_light"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/favorite"
+        android:title="@string/favorite"
+        android:icon="@drawable/ic_baseline_saved"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit"
+        app:showAsAction="never"/>
+
+</menu>

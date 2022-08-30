@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.FavoriteActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_favorite"
+        style="@style/listUser"
+        tools:listitem="@layout/list_users"
+        />
+
+
+
+   <LinearLayout
+       android:id="@+id/layout_message"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:orientation="vertical"
+       android:visibility="visible"
+       android:layout_centerInParent="true">
+
+       <ImageView
+
+           android:layout_width="wrap_content"
+           android:layout_height="200dp"
+           android:layout_gravity="center"
+           android:src="@drawable/empty"
+           android:visibility="visible"
+           android:contentDescription="@string/empty_favorite" />
+
+       <TextView
+           style="@style/TitleNoConnection"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="25sp"
+           android:fontFamily="@font/poppins_semibold"
+           android:visibility="visible"
+           android:text="@string/no_favorites_list"/>
+
+   </LinearLayout>
+
+
+
+
+</RelativeLayout>

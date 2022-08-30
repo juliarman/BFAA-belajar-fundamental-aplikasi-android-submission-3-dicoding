@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FollowingFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_fragment_following"
+        style="@style/listUser"
+        tools:listitem="@layout/list_users"/>
+
+
+    <TextView
+        android:id="@+id/no_following"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_following"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/orange"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/orange"
+        android:visibility="invisible"
+        android:layout_gravity="center"/>
+
+
+</FrameLayout>

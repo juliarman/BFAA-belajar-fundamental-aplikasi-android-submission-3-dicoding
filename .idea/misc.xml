@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/drawable/bg_input.xml" value="0.1" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/drawable/bg_input_dark.xml" value="0.128" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/drawable/btn_favorite.xml" value="0.1535" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/drawable/gambar.xml" value="0.128" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/drawable/ic_baseline_bookmark_border_24.xml" value="0.1155" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/drawable/ic_baseline_dark_mode_24.xml" value="0.1155" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/drawable/ic_baseline_favorite.xml" value="0.1155" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.1155" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/drawable/ic_baseline_light_mode_24.xml" value="0.1" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/drawable/ic_baseline_saved.xml" value="0.1155" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/drawable/ic_baseline_unfavorite.xml" value="0.1155" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/drawable/ic_baseline_unsaved.xml" value="0.1155" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/drawable/ic_favorited.xml" value="0.1155" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/drawable/ic_unfavorit.xml" value="0.1155" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/font/font.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/font/poppins_semibold.xml" value="0.2125" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/layout/activity_detail_users.xml" value="0.2" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/layout/activity_favorite.xml" value="0.14427083333333332" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/layout/activity_splash_screen.xml" value="0.18" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/layout/activity_theme.xml" value="0.15" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/layout/btn_switch.xml" value="0.2" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/layout/custom_toolbar.xml" value="0.5" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/layout/fragment_follower.xml" value="0.2" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/layout/fragment_following.xml" value="0.2" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/layout/layout_switch.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/layout/list_users.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/menu/detail_top_menu.xml" value="0.2" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/menu/top_detail.xml" value="0.1109375" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/menu/top_menu_detail.xml" value="0.103125" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/menu/top_up_bar.xml" value="0.18" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/menu/top_up_bar_dark.xml" value="0.2" />
+        <entry key="..\:/Users/INDCODE/AndroidStudioProjects/AppsGithubUser/app/src/main/res/menu/top_up_bar_light.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

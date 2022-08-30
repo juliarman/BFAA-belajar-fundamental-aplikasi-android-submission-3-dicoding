@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Apps Github User</string>
+
+    <string name="tab_follower">Follower</string>
+    <string name="tab_following">Following</string>
+    <string name="name_not_set">--Not set--</string>
+    <string name="location_not_set">--Not set--</string>
+    <string name="email_not_set">--Not set--</string>
+    <string name="company_not_set">--Not set--</string>
+    <string name="blog_not_set">--Not set--</string>
+    <string name="name">---------------</string>
+    <string name="location">------------------</string>
+    <string name="email">--------------</string>
+    <string name="company">--------------</string>
+    <string name="blog">--------------</string>
+    <string name="repo">-</string>
+    <string name="followers">-</string>
+    <string name="following">-</string>
+    <string name="t_repo">Repo</string>
+    <string name="t_followers">Followers</string>
+    <string name="t_following">Following</string>
+    <string name="email_user_github">Email user Github</string>
+    <string name="company_user_github">Company user Github</string>
+    <string name="blog_user_github">Blog user Github</string>
+    <string name="button_save_favorit">Button save favorit</string>
+    <string name="no_followers">NO FOLLOWERS</string>
+    <string name="no_following">NO FOLLOWING</string>
+    <string name="github_apps">Github Apps</string>
+    <string name="favorite">Favorite</string>
+    <string name="about">About</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="dark_mode_activated">Dark Mode Activated</string>
+    <string name="light_mode_activated">Light Mode Activated</string>
+    <string name="data_not_found">Data not found</string>
+    <string name="no_favorites_list">No favorites list!</string>
+    <string name="empty_favorite">Empty Favorite</string>
+    <string name="no_connection">No Connection!</string>
+    <string name="description_no_connection">Connect to Wi-Fi networks on your device to use the Apps!</string>
+    <string name="github_apps_startup">Github Apps</string>
+    <string name="exit">Exit</string>
+</resources>

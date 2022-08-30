@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:drawablePadding="0dp"
+                android:gravity="center_vertical"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:drawablePadding="0dp"
+                android:layout_toStartOf="@+id/tv_value"
+                android:layout_toEndOf="@+id/tv_back"
+                android:gravity="center"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:gravity="end"
+                android:text="test"/>
+
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+</com.google.android.material.appbar.AppBarLayout>
