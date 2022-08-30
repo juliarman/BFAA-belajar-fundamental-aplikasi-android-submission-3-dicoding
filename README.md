@@ -3,6 +3,7 @@ BFAA Dicoding Submission 3
 
 MOHON GUNAKAN SEBAGAI REFERENSI SAJA :)
 
+<h2><center>LIGHT MODE</center></h2>
 <p>
   <img src="https://github.com/juliarman/BFAA-belajar-fundamental-aplikasi-android-submission-3-dicoding/blob/main/app/src/main/res/drawable/lightmode_main.jpg" width="230">
 
